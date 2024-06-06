@@ -1,0 +1,18 @@
+GET http://localhost:3000/movies/
+
+GET http://localhost:3000/movies/46
+
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+  "directorId": 6,
+  "movieName": "Jurassic Park",
+  "leadActor": "Jeff Goldblum"
+}
+
+PUT http://localhost:3000/movies/?
+
+GET http://localhost:3000/directors/
+
+GET http://localhost:3000/directors/:directorId/movies
